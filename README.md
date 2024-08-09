@@ -15,6 +15,8 @@ A repository for a Computing for Data Science Lab could contain various resource
   _step 5_: Repeat steps 2-4 until the end of the list is reached.<br>
   _step 6_: If the target value is not found, return -1.<br>
 
-  [Flow Chart](https://github.com/pavir05/Computing-for-Data-Science-Lab/blob/main/Linear_Search.jpg)
+[Flow Chart](https://github.com/pavir05/Computing-for-Data-Science-Lab/blob/main/Linear_Search.jpg)
 
+**Code for**
+[Linear Search](https://github.com/pavir05/Computing-for-Data-Science-Lab/blob/main/Code)
   
