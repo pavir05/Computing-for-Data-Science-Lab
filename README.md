@@ -5,7 +5,7 @@ A repository for a Computing for Data Science Lab could contain various resource
 > Table of Contents
 ## Searching Algorithms
 ### 1. Linear Search:
-**Definition**: A simple algorithm which is used to find an element in a list/ an array by traversing or iterating by checking each element from beginning to the end until it's found. This is called as linear search because it traverses the list in a linear fashion, one element at a time. 
+**Definition**: A simple algorithm which is used to find an element in a list by traversing or iterating by checking each element from beginning to the end until it's found. This is called as linear search because it traverses the list in a linear way, one element at a time. 
 
 **Algorithm**:<br>
   _step 1_: Start from the first element of the list.<br>
