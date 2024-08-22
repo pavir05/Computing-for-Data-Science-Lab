@@ -1,0 +1,42 @@
+'''
+    Algorithm: Queue
+    Name: Pavitra R
+    Date: 22-08-2024
+'''
+
+q= list()
+
+# adding elements in the queue
+def enqueue(element):
+    q.append(element)
+
+# removing elements from queue
+def dequeue(q):
+    if peek(q):
+        return 'queue is empty'
+    else:
+        return q.pop(0)
+
+def peek(q):
+    print('queue is empty') if len(q) == 0 else None
+    
+
+def print_queue():
+    for items in q:
+        print(items)
+
+
+# checks if the queue is empty
+peek(q)
+# Adding values to the queue
+enqueue('a')
+enqueue(1)
+enqueue('b')
+enqueue(8)
+
+print('queue after adding elements:')
+print_queue()  # Seeing the contents of the queue.
+dequeue(q) 
+
+print('\nqueue after removing element(s):')
+print_queue()
