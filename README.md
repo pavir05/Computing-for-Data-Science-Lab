@@ -19,7 +19,7 @@ A repository for a Computing for Data Science Lab could contain various resource
 [Linear Search](https://github.com/pavir05/Computing-for-Data-Science-Lab/blob/main/Linear_Search.jpg)
 
 **Code for**
-[Linear Search](https://github.com/pavir05/Computing-for-Data-Science-Lab/blob/main/Code)
+[Linear Search](https://github.com/pavir05/Computing-for-Data-Science-Lab/blob/main/Code/Linear%20Search)
 
 
 **Output**:<br>
@@ -57,7 +57,7 @@ _3. Target not present_<br>
 4. Paranthesis Balancing
 
 **Code for**
-[Stack]()
+[Stack](https://github.com/pavir05/Computing-for-Data-Science-Lab/blob/main/Code/Stack)
 
 ### 1. Queue:
 **Definition**: A data-structure which is linear and follows FIFO(First In First Out) principle. It has the functions 
@@ -71,4 +71,4 @@ _3. Target not present_<br>
 2. Movie ticket booking
 
 **Code for**
-[Queue]()
+[Queue](https://github.com/pavir05/Computing-for-Data-Science-Lab/blob/main/Code/Queue)
