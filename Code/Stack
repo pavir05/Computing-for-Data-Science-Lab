@@ -1,1 +1,42 @@
+'''
+    Algorithm: Stack
+    Name: Pavitra R
+    Date: 22-08-2024
+'''
 
+s = list()
+
+# adding elements in the stack
+def push(element):
+    s.append(element)
+
+# removing elements from stack
+def pop_element(s):
+    if peek(s):
+        return 'stack is empty'
+    else:
+        return s.pop()
+
+def peek(s):
+    print('stack is empty') if len(s) == 0 else None
+    
+
+def print_stack():
+    for items in s:
+        print(items)
+
+
+# checks if the stack is empty
+peek(s)
+# Adding values to the stack:
+push('a')
+push(1)
+push('b')
+push(8)
+
+print('stack after adding elements:')
+print_stack()  # Seeing the contents of the stack.
+pop_element(s) 
+
+print('\nstack after removing element(s):')
+print_stack()
