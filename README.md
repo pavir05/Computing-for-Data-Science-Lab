@@ -42,3 +42,33 @@ _3. Target not present_<br>
  - Scenario: The target element is not present in the list.
  - Expected o/p: The algorithm iterates through the entire list and returns -1(element is not found).<br>
 ![image](https://github.com/user-attachments/assets/68afa556-7ca0-4946-8249-68e4140fac83)
+
+### 1. Stack:
+**Definition**: A data-structure which is linear and follows LIFO(Last In First Out) principle. It has the functions 
+- push(add elements)
+- pop(removes element)
+- peek(check's if the stack is empty or not)<br>
+(it can have more functions)
+
+**Real Life Examples:**
+1. Undo-Redo
+2. Pile of books
+3. Infix to Postfix / Postfix to Infix
+4. Paranthesis Balancing
+
+**Code for**
+[Stack]()
+
+### 1. Queue:
+**Definition**: A data-structure which is linear and follows FIFO(First In First Out) principle. It has the functions 
+- enqueue(add elements)
+- dequeue(removes element)
+- peek(check's if the queue is empty or not)<br>
+(it can have more functions)
+
+**Real Life Examples:**
+1. Email inbox
+2. Movie ticket booking
+
+**Code for**
+[Queue]()
