@@ -72,3 +72,7 @@ _3. Target not present_<br>
 
 **Code for**
 [Queue](https://github.com/pavir05/Computing-for-Data-Science-Lab/blob/main/Code/Queue)
+
+**Code for**
+Euclidean Distance using class and objects
+[Euclidean distance](https://github.com/pavir05/Computing-for-Data-Science-Lab/blob/main/Code/Euclidean%20Distance)
