@@ -6,38 +6,38 @@
 
 import math
 
-class Point: 
-    # Custom type for a 2D point
-    def __init__(self, x_coordinate, y_coordinate):
+class Point3D:
+    # Custom type for a 3D point
+    def __init__(self, x_coordinate, y_coordinate, z_coordinate):
         self.x_coordinate = x_coordinate
         self.y_coordinate = y_coordinate
+        self.z_coordinate = z_coordinate
 
     def __repr__(self):
-        # String representation of the point, e.g., (3, 4)
-        return f"({self.x_coordinate}, {self.y_coordinate})"
+        # String representation of the point, e.g., (1, 2, 3)
+        return f"({self.x_coordinate}, {self.y_coordinate}, {self.z_coordinate})"
     
     def __add__(self, other):
         # Adding two points by adding their respective coordinates
-        return Point(
-            x_coordinate = self.x_coordinate + other.x_coordinate,
-            y_coordinate = self.y_coordinate + other.y_coordinate
+        return Point3D(
+            x_coordinate=self.x_coordinate + other.x_coordinate,
+            y_coordinate=self.y_coordinate + other.y_coordinate,
+            z_coordinate=self.z_coordinate + other.z_coordinate
         )
     
-    @staticmethod
-    def calculate_euclidean_distance(point_1, point_2):
-        # Static method to calculate the Euclidean distance between two points
+    def calculate_euclidean_distance(point1, point2):
+        # Static method to calculate the Euclidean distance between two 3D points
         return math.sqrt(
-            (point_2.x_coordinate - point_1.x_coordinate)**2 +
-            (point_2.y_coordinate - point_1.y_coordinate)**2
+            (point2.x_coordinate - point1.x_coordinate) ** 2 +
+            (point2.y_coordinate - point1.y_coordinate) ** 2 +
+            (point2.z_coordinate - point1.z_coordinate) ** 2
         )
 
-point1 = Point(3, 4)
-point2 = Point(7, 1)
+# Example usage
+point1 = Point3D(1, 2, 3)
+point2 = Point3D(4, 5, 6)
 
 # Calculate the Euclidean distance between point1 and point2
-distance = Point.calculate_euclidean_distance(point1, point2)
+distance = Point3D.calculate_euclidean_distance(point1, point2)
 print(f"Euclidean Distance: {distance}")
 
-# Add two points together
-point3 = point1 + point2
-print(f"Sum of points: {point3}")
